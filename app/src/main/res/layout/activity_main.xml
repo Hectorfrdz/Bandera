@@ -12,16 +12,23 @@
         android:background="#EF3325"
         android:layout_weight="12" />
     <RelativeLayout
+        android:id="@+id/Blanc"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="20"
-        />
+        android:layout_weight="40"
+        android:background="#ffff"
+        >
+        <ImageView
+            android:layout_width="20000dp"
+            android:layout_height="200dp"
+            android:src="@drawable/banderav3"
+            android:layout_centerInParent="true"
+            android:contentDescription="Bandera" />
+    </RelativeLayout>
+
     <View
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="#77FF00"
         android:layout_weight="12" />
-
-
-
 </androidx.appcompat.widget.LinearLayoutCompat>
